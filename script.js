@@ -5,4 +5,8 @@ function getComputerChoice() {
   else return "scissors";
 }
 
-console.log(getComputerChoice());
+function getHumanChoice() { 
+    const choice = prompt("Type Rock, Paper or Scissors"); 
+    return choice.toLowerCase()}
+
+console.log(getHumanChoice());
